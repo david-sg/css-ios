@@ -1,0 +1,60 @@
+body {
+ background-image: url("Frame/DeviceFrame.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.homescreen {	
+z-index: 0;
+  position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 378px;
+width: 415px;
+height: 735px;
+overflow: hidden;
+    vertical-align: top;
+    text-align: center;
+
+
+}
+
+
+.row {
+	  top: 0;
+  left: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+  z-index: 10; 
+
+            position: absolute;
+            float: left;
+                text-align: center;
+
+
+}
+
+.icon{
+	border-radius: 15px;
+  width: 65px;
+  height: 65px;
+  margin-top: 15px;
+  z-index: 10; 
+  display: inline-block;
+
+}
+
+.icon-text {
+	font-size: 16px;
+  z-index: 10;
+}
+.dock{
+
+}
+.icon img {
+    display: block;
+    margin: 0 auto;
+}
